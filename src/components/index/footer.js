@@ -9,14 +9,15 @@ const Footer = styled.footer `
 
 const StyledFooter = (props)=>(
     <Footer>
-    
+    <hr></hr>
     Powered by FireBase<br></br>
     Created by KhaKai United(Dr.D4N, PoonnyNH, KONMEKLOYDAI, Chickenrap_)<br></br>
-    Contact us: <br></br>
-    &nbsp;e-mail: poon.002@hotmail.com<br></br>
-    &nbsp;SoundCloud: www.SoundCloud.com/drd4nx<br></br>
-    &nbsp;IG: drd4nx<br></br>
-        
+    Contact us:
+    <ul>
+    <li>e-mail: poon.002@hotmail.com</li>
+    <li>SoundCloud: www.SoundCloud.com/drd4nx</li>
+    <li>IG: drd4nx</li>
+    </ul> 
     </Footer>
 )
 
