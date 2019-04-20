@@ -25,6 +25,19 @@
     <title>E-Cake</title>
   </head>
   <body>
+      <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBs7QllzpgNfk3D0SHvBMReE6oVMcgR6FY",
+          authDomain: "e-cake.firebaseapp.com",
+          databaseURL: "https://e-cake.firebaseio.com",
+          projectId: "e-cake",
+          storageBucket: "e-cake.appspot.com",
+          messagingSenderId: "767438469236"
+        };
+        firebase.initializeApp(config);
+      </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
