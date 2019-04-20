@@ -5,6 +5,7 @@ const Footer = styled.footer `
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
 `
 
 const StyledFooter = (props)=>(

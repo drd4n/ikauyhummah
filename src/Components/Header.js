@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+
 
 class Header extends React.Component{
 /*const Paragraph = styled.h2`
@@ -88,6 +88,7 @@ currentTime(){
 componentWillMount() {
 setInterval(()=>this.currentTime(),1000)
 }
+
 
   render() {
     return (

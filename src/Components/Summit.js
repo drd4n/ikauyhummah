@@ -4,8 +4,9 @@ import styled from 'styled-components'
 
 const StyledButton = styled.button `
     margin-bottom: 0.5em;
-    margin-left: 0.5em;
+    margin-right: 3.5em;
     border-color: red;
+    font-family: 'Montserrat', sans-serif;
 
     :hover {
         color: red;
