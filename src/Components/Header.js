@@ -21,7 +21,7 @@ const Logo = (props) => (
 
 
 // monthSwitch() {
-//   switch(toMonth) {
+//   swit ch(toMonth) {
 //     case 1:
 //       return 'มกรา';
 //       case 2:
