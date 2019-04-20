@@ -1,15 +1,48 @@
 import React from 'react'
-import styled from 'styled-components'
+import { Dropdown } from 'semantic-ui-react'
 
-<--example form lab5-->
+const PornOptions = [
+  {
+    text: 'HBD นะ มีความสุขมากๆ',
+    value: '1',
+  },
+  {
+    text: '',
+    value: '',
+  },
+  {
+    text: '',
+    value: '',
+  },  
+  {
+    text: '',
+    value: '',
+  },  
+  {
+    text: '',
+    value: '',
+  },  
+  {
+    text: '',
+    value: '',
+  },  
+  {
+    text: '',
+    value: '',
+  },  
+  {
+    text: '',
+    value: '',
+  },
+]
 
-<form id='newcust' method=__ action="data"></form>
-<p>Porn : <select name="porn" form="newcust">
-<option value="1"> </option>
-<option value="1"> </option>
-<option value="1"> </option>
-<option value="1"> </option>
-<option value="1"> </option>
-<option value="1"> </option>
-</select>
-</p>
+const PornSelection = () => (
+  <Dropdown
+    placeholder='Select Porn'
+    fluid
+    selection
+    options={friendOptions}
+  />
+)
+
+export default PornSelection
