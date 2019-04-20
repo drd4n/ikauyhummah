@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { months() , date() } from 'moment';
+import {moment} from 'moment';
 
-
+class Header extends React.Component{
 /*const Paragraph = styled.h2`
   text-align: left;
   text-indent: 1em;
@@ -50,7 +50,7 @@ monthSwitch() {
   }
 }
 
-hbdSwitch(){
+chbdSwitch() {
   switch(moment().date()) {
     case 0:
       return 'hbd';
@@ -74,7 +74,7 @@ hbdSwitch(){
   text-shadow: 5px 5px white;
 `*/
 
-const Header = () => (
+
   render() {
     return (
       <div>
@@ -86,6 +86,7 @@ const Header = () => (
         </div>
       </div>
     );
-)
-
+   
+    }
+  }
 export default Header
