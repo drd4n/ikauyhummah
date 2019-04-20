@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import moment from 'moment'
+
 class Header extends React.Component{
 /*const Paragraph = styled.h2`
   text-align: left;
