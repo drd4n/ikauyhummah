@@ -6,6 +6,7 @@ import Summit from './Components/Summit'
 import HeaderText from './Components/HeaderText';
 import Footer from './Components/Footer'
 import Cake from './Components/Cake'
+import Gifts from './Components/Gifts'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <div className="App">
       <HeaderText />
       <Cake />
+      <Gifts />
       <div align="right">
       <fieldset>
       <FromInput />
