@@ -15,14 +15,16 @@ class App extends Component {
       <HeaderText />
       <Cake />
       <Gifts />
-      <div align="right">
+      <div>
       <fieldset>
-      <FromInput />
+      
       
       <Submit />
       
       </fieldset>
+      
       </div>
+      
       <Footer />
       <Header />
       
