@@ -1,96 +1,55 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// setProp = () => {
+//   let numProp = {value}
+// }
 
-
-const Gift = styled.img `
+const Gift = styled.img`
   width: 30px;
   height: 30px;
 `
-class Gifts = () => {
-  render() {
-    return (
-    <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3">
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_like.png')}></Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_love.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_lol.png')}> </Gift>
-    </div>   
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_sad.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_wow.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_angry.png')}> </Gift>
-    </div>
-    <div class="col-sm-3">
-    </div>
-    </div>
 
-    <div class="row">
-    <div class="col-sm-3">
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_like.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_love.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_lol.png')}> </Gift>
-    </div>   
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_sad.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_wow.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_angry.png')}> </Gift>
-    </div>
-    <div class="col-sm-3">
-    </div>
-    </div>
+const Gifts = () => (
+  <div>
+    <Gift src={require('./pictures/candle_prop.png')} /> &nbsp;
+
+<Gift src={require('./pictures/cherry_prop.png')} /> &nbsp;
+    
+<Gift src={require('./pictures/cone_prop.png')} /> &nbsp;
+    
+<Gift src={require('./pictures/egg_prop.png')} /> &nbsp;
+    
+<Gift src={require('./pictures/straw_prop.png')} /> &nbsp;
+    
+<Gift src={require('./pictures/hbd_prop.png')} /><br></br>
+    <Gift src={require('./pictures/pizza_prop.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/genius_prop.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/spoonfork_prop.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/prayuth_prop.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/cash_prop.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/cake.png')} /><br></br>
+
+    <Gift src={require('./pictures/fb1_like.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/fb1_love.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/fb1_lol.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/fb1_sad.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/fb1_wow.png')} /> &nbsp;
+
+    <Gift src={require('./pictures/fb1_angry.png')} />
+
+  </div>
+)
 
 
-    <div class="row">
-    <div class="col-sm-3">
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_like.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_love.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_lol.png')}> </Gift>
-    </div>   
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_sad.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_wow.png')}> </Gift>
-    </div>
-    <div class="col-sm-1">
-    <Gift src={require('./pictures/fb1_angry.png')}> </Gift>
-    </div>
-    <div class="col-sm-3">
-    </div>
-    </div>
-
-
-</div>
-    )
-  }
-}
 
 export default Gifts

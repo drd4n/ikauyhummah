@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// sendToBase = () => { //ส่งค่าไป firebase
+//     ___ = Cake.xCoordinate ;
+//     ___ = Cake.yCoordinate ;
+//     ___ = numProp ;
+//   }
 
 const StyledButton = styled.button `
     margin-bottom: 0.5em;
@@ -12,8 +17,8 @@ const StyledButton = styled.button `
         color: red;
     }
 `
-const Summit =()=>(
+const Submit =()=>(
     <StyledButton id="auyporn">Submit</StyledButton>
     )
 
-export default Summit
+export default Submit

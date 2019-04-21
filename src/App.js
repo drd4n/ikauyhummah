@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header'
 import FromInput from './Components/FromInput'
-import Summit from './Components/Summit'
+import Submit from './Components/Submit'
 import HeaderText from './Components/HeaderText';
 import Footer from './Components/Footer'
 import Cake from './Components/Cake'
@@ -19,7 +19,7 @@ class App extends Component {
       <fieldset>
       <FromInput />
       
-      <Summit />
+      <Submit />
       
       </fieldset>
       </div>

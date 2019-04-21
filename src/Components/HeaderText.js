@@ -8,6 +8,9 @@ const Pee = styled.p `
     text-style: thick;
     font-family: 'Roboto', sans-serif;
 `
+// var d = new Date();
+// document.getElementById("demo").innerHTML = d.getDate();
+
 
 const HeaderText =()=>(
 
