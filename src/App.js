@@ -17,8 +17,7 @@ class App extends Component {
       <Gifts />
       <div>
       <fieldset>
-      
-      
+    
       <Submit />
       
       </fieldset>
