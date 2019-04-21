@@ -8,13 +8,14 @@ import styled from 'styled-components'
 const Gift = styled.img`
   width: auto;
   height: 50px;
-  margin: 10px;
+  margin: 5px 30px;
 `
 
 const Gifts = () => (
   <div>
+    <a src="google.com">
     <Gift src={require('./pictures/candle_prop.png')} /> &nbsp;
-
+    </a>
 <Gift src={require('./pictures/cherry_prop.png')} /> &nbsp;
     
 <Gift src={require('./pictures/cone_prop.png')} /> &nbsp;
