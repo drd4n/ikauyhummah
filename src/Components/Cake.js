@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const CakeImg = styled.img `
-  width: 100px;
+  width: 350px;
   height: auto;
 `
 
@@ -11,13 +11,13 @@ const CakeImg = styled.img `
 class Cake extends React.Component {
 
   // // const Cake = (props) => {
-  //   constructor(props) {
-  //     super(props);
-  //     this.state = { x: 0, y: 0 };
-  //   }
-  //   onclick(e) {
-  //     this.setState({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY });
-  //   }
+    constructor(props) {
+      super(props);
+      this.state = { x: 0, y: 0 };
+    }
+    onclick(e) {
+      this.setState({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY });
+    }
   // // }
 
 // clickImage = (event) => { //เปลี่ยนค่า 3ค่าเพื่อส่งตอน submit
@@ -30,7 +30,7 @@ class Cake extends React.Component {
   render() {
     return (
       <div>
-        <CakeImg src='./pictures/cake.png' alt="The Cake" />
+        <CakeImg src={require('./pictures/cake.png')} alt="The Cake" />
         {/* onClick={this.clickImage(event)}; */}
 
       </div>

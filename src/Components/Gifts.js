@@ -6,8 +6,9 @@ import styled from 'styled-components'
 // }
 
 const Gift = styled.img`
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: 50px;
+  margin: 10px;
 `
 
 const Gifts = () => (
