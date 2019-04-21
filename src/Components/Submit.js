@@ -18,14 +18,14 @@ const StyledButton = styled.button`
         color: red;
     }
 `
-let name = prompt("What is your name ?", "");
+let name = prompt("ชื่ออะไรเหรอเราอะ?", "");
 
 class Submit extends React.Component {
 
     render() {
         return (
             <div>
-                <StyledButton onClick={chkPrompt}>click me!</StyledButton>
+                <StyledButton onClick={chkPrompt}>click me to HBD you!</StyledButton>
             </div>
         );
     }
@@ -33,7 +33,7 @@ class Submit extends React.Component {
 
 
 const chkPrompt =() => (   
-    alert("Hello, " + name)
+    alert("Happy Birth Day นะเจ้า" + name + "💓")
 )
 
 
